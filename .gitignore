@@ -1,0 +1,37 @@
+.idea/
+# 字节码与编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境（覆盖主流命名）
+venv/
+.venv/
+env/
+ENV/
+
+# 构建与分发
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 测试与覆盖率
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+
+# 日志与环境密钥
+*.log
+.env
+.env.local
+*.sqlite3
+
+# IDE 与系统文件（建议通用）
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
